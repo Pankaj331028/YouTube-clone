@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding:0;
+   box-sizing: border-box;
+
+}
+.header{
+    display: block;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    background-color:white;
+    position: fixed;
+}
+.logo{
+    display: flex;
+    margin-left: 10px;
+   font-size: 30px;
+    padding: 20px;
+}
+.fa-bars{
+  margin-top: 5px;
+}
+.fa-youtube{
+    color: red;
+    margin-left: 40px;
+    margin-top: 7px;
+}
+.Search{
+    margin-left: 140px;
+    width: 45%;
+}
+.Search input{
+    position: relative;
+    width: 90%;
+    height: 40px;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    margin-left: -43px;
+    background-color: rgba(211, 211, 211, 0.205);
+    font-size: 18px;
+    padding: 11px;
+}
+.fa-microphone{
+    background-color: rgba(211, 211, 211, 0.205);
+width: ;
+padding: 12px;
+border-radius: 50%;
+}
+.singn_in {
+    
+    width: 25%;
+    float: right;
+}
+.sign{
+    float: right;
+
+
+border: 1px solid black;
+padding: 8px;
+}
+.fa-circle-user{
+    margin-right: 8px;
+}
+.sign a{
+    text-decoration: none;
+}
+
+/*============================================================================*/
+.secondsection{
+    width: 100%;
+    display: flex;
+}
+.firstpart {
+    width: 20%;
+    overflow: auto;
+    height: 686px;
+    position: fixed;
+   margin-top: 50px;
+  }
+.secondpart {
+    border-top: 1px solid rgba(0, 0, 0, 0.188);
+    width: 80%;
+    margin-left: 20%;
+   margin-top: 50px;
+  }
+.allwatch{
+    display: flex;
+    height: 40px;
+    margin-top: 13px;
+   
+  
+    border-bottom: 1px solid rgba(0, 0, 0, 0.188);
+    
+
+}
+.allwatch li{
+   
+    margin-left: 10px;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 15px;
+    list-style: none;
+    padding: 9px;
+    background-color: rgba(211, 211, 211, 0.205);
+    margin-bottom: 10px;
+    margin-top: -5px;
+}
+.videosection{
+      display: flex;
+    
+    width: 100%;
+}
+.videosection iframe{
+    height: 200px;
+    margin: 10px;
+    width: 100%;
+}
+.videocard {
+    width: 24%;
+    padding: 5px;
+    margin-right: 21px;
+  }
+  .textvideo {
+    margin-left: 10px;
+  }
+/*======================================home section=========================================>*/
+  .Homepart li {
+    margin-left: 31px;
+    list-style: none;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  .Homepart i {
+    margin-right: 52px;
+  }
+  hr{
+    color:rgba(0, 0, 0, 0.141);
+    margin-top: 20px;
+  }
+  .Homepart p {
+    margin-left: 30px;
+    margin-top: 18px;
+  }
+  .Homepart .abc {
+    color: red;
+  }
